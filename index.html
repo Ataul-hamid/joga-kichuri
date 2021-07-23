@@ -5,438 +5,466 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Joga kichuri</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
     <!-- anchor tag -->
 
-    <header>
-        <nav>
-            <a href="">Home</a>
-            <a href="">Categories</a>
-            <a href="">About Us</a>
-            <a href="">Contact</a>
-        </nav>
-    </header>
+    <section class="top-section">
+        <header>
+            <nav>
+                <a href="">Home</a>
+                <a href="">Categories</a>
+                <a href="">About Us</a>
+                <a href="">Contact</a>
+            </nav>
+        </header>
+        <br>
+        <br>
+    </section>
     <!-- abbreviation tag -->
 
-    <p> <abbr title="Hyper Text Markup Language">HTML</abbr>is publishing language of the World wide Web</p>
-    <!-- address tag -->
-    <address>
-        <p><a href="https://www.facebook.com">Facebook</a></p>
-    </address>
+    <section class="albi">
+        <p> <abbr title="Hyper Text Markup Language">HTML</abbr>is publishing language of the World wide Web</p>
+        <!-- address tag -->
+        <address>
+            <p><a href="https://www.facebook.com">Facebook</a></p>
+        </address>
 
-    <!-- article tag -->
+        <!-- article tag -->
 
-    <article>
-        <h1>Introduction to HTML</h1>
-        <p>HTML is a markup language that is used ro creating web pages..</p>
-    </article>
+        <article>
+            <h1>Introduction to HTML</h1>
+            <p>HTML is a markup language that is used ro creating web pages..</p>
+        </article>
 
-    <!-- aside tag -->
+        <!-- aside tag -->
 
-    <aside>
-        <h1>Apollo 13 Facts</h1>
-        <p>Apollo 13 was the seventh manned mission in the American Apollo space program and the third intended to land
-            on the Moon.</p>
-    </aside>
+        <aside>
+            <h1>Apollo 13 Facts</h1>
+            <p>Apollo 13 was the seventh manned mission in the American Apollo space program and the third intended to
+                land
+                on the Moon.</p>
+        </aside>
 
+    </section>
     <!-- bold tag -->
-    <b>This is alvi's blog</b>
+    <section class="hamid">
+        <b>This is alvi's blog</b>
 
-    <!-- bdi tag -->
-    <p dir="ltr"> This arabic word <bdi>ARABIC_PLACEHOLDER</bdi> is automatically displayed right-to-left.</p>
+        <!-- bdi tag -->
+        <p dir="ltr"> This arabic word <bdi>ARABIC_PLACEHOLDER</bdi> is automatically displayed right-to-left.</p>
 
-    <!-- bdo tag -->
+        <!-- bdo tag -->
 
-    <p>The sequence "1-2-3-4-5" was reversed as <bdo dir="rtl">1-2-3-4-5</bdo></p>
+        <p>The sequence "1-2-3-4-5" was reversed as <bdo dir="rtl">1-2-3-4-5</bdo></p>
 
-    <!-- blockquote tag -->
-    <blockquote>
-        <p>this is an example of a long quotation .</p>
-    </blockquote>
+        <!-- blockquote tag -->
+        <blockquote>
+            <p>this is an example of a long quotation .</p>
+        </blockquote>
+    </section>
 
     <!-- button and Form tag -->
+    <section class="b">
 
-    <form action="" method="post">
+        <form action="" method="post">
 
-        <p>First Name:<input type="text" name="firstname">
-            <button type="submit">Submit</button>
-            <button type="reset">Reset</button>
-        </p>
-    </form>
+            <p>First Name:<input type="text" name="firstname">
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </p>
+        </form>
 
-    <!-- canvas tag -->
-    <canvas id="myCanvas" width="300" height="200"></canvas>
-    <script type="text/javascript">
-        window.onload = function () {
-            var canvas = document.getElementById("myCanvas");
-            var context = canvas.getContext("2d");
-            context.moveTo(100, 150);
-            context.lineTo(200, 50);
-            context.stroke();
-        };
-    </script>
+        <!-- canvas tag -->
+        <canvas id="myCanvas" width="300" height="200"></canvas>
+        <script type="text/javascript">
+            window.onload = function () {
+                var canvas = document.getElementById("myCanvas");
+                var context = canvas.getContext("2d");
+                context.moveTo(100, 150);
+                context.lineTo(200, 50);
+                context.stroke();
+            };
+        </script>
+        <br>
+        <br>
+        <br>
 
-    <!-- caption tag -->
 
-    <table border="1px solid black">
-        <caption>User details</caption>
-        <thead>
+        <!-- caption tag -->
+
+        <table class="table">
+            <caption>User details</caption>
+            <thead>
+                <tr>
+                    <th>No.</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Ataul</td>
+                    <td>ataul@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Ataul</td>
+                    <td>ataul@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+
+
+    </section>
+
+
+    <section class="c">
+        <!-- cite tag -->
+
+        <p>My favorite person is <cite> something</cite></p>
+        <p>My favorite person is <cite> something</cite></p>
+
+
+        <!-- code tag -->
+
+        <p>Regular text. <code>Computer code</code> Regular text.</p>
+
+        <!-- col tag  -->
+
+        <table>
+            <colgroup>
+
+                <col style="background-color: #adff2f;">
+                <col span="2" style="background-color: #f0e86c;">
+            </colgroup>
             <tr>
                 <th>No.</th>
                 <th>Name</th>
                 <th>Email</th>
             </tr>
-        </thead>
-        <tbody>
             <tr>
                 <td>1</td>
-                <td>Ataul</td>
-                <td>ataul@gmail.com</td>
+                <td>hamid</td>
+                <td>hamid@gmail.com</td>
             </tr>
             <tr>
                 <td>1</td>
-                <td>Ataul</td>
-                <td>ataul@gmail.com</td>
+                <td>hamid</td>
+                <td>hamid@gmail.com</td>
             </tr>
-        </tbody>
-    </table>
+            <tr>
+                <td>1</td>
+                <td>hamid</td>
+                <td>hamid@gmail.com</td>
+            </tr>
+        </table>
+
+        <!-- data tag -->
+
+        <p>New Products</p>
+        <ul>
+            <li><data value="204">Green Tea</data></li>
+            <li><data value="205">Tomato Ketchup</data></li>
+            <li><data value="204">Roasted Coffee Beans</data></li>
+        </ul>
 
 
-    <!-- cite tag -->
+        <!-- datalist tag -->
 
-    <p>My favorite person is <cite> something</cite></p>
-    <p>My favorite person is <cite> something</cite></p>
+        <p>Enter your favorite browser name:</p>
 
+        <input type="text" list="browsers">
+        <datalist id="browsers">
+            <option value="Firefox"></option>
+            <option value="Chrome"></option>
+            <option value="Microsoft Edge"></option>
+            <option value="Opera mini"></option>
+            <option value="Internet Explorer"></option>
+            <option value="Safari"></option>
 
-    <!-- code tag -->
+        </datalist>
 
-    <p>Regular text. <code>Computer code</code> Regular text.</p>
-
-    <!-- col tag  -->
-
-    <table>
-        <colgroup>
-
-            <col style="background-color: #adff2f;">
-            <col span="2" style="background-color: #f0e86c;">
-        </colgroup>
-        <tr>
-            <th>No.</th>
-            <th>Name</th>
-            <th>Email</th>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>hamid</td>
-            <td>hamid@gmail.com</td>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>hamid</td>
-            <td>hamid@gmail.com</td>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>hamid</td>
-            <td>hamid@gmail.com</td>
-        </tr>
-    </table>
-
-    <!-- data tag -->
-
-    <p>New Products</p>
-    <ul>
-        <li><data value="204">Green Tea</data></li>
-        <li><data value="205">Tomato Ketchup</data></li>
-        <li><data value="204">Roasted Coffee Beans</data></li>
-    </ul>
+        <!-- dd tag--------- -->
 
 
-    <!-- datalist tag -->
+        <dl>
+            <dt>Term1</dt>
+            <dd>� definition1</dd>
 
-    <p>Enter your favorite browser name:</p>
+            <dt>Term1</dt>
+            <dd>� definition1</dd>
 
-    <input type="text" list="browsers">
-    <datalist id="browsers">
-        <option value="Firefox"></option>
-        <option value="Chrome"></option>
-        <option value="Microsoft Edge"></option>
-        <option value="Opera mini"></option>
-        <option value="Internet Explorer"></option>
-        <option value="Safari"></option>
+        </dl>
 
-    </datalist>
-
-    <!-- dd tag--------- -->
+    </section>
 
 
-    <dl>
-        <dt>Term1</dt>
-        <dd>� definition1</dd>
+    <section class="d">
 
-        <dt>Term1</dt>
-        <dd>� definition1</dd>
+        <!-- del and ins tag -->
 
-    </dl>
-
-    <!-- del and ins tag -->
-
-    <h1>To Do</h1>
-    <ul>
-        <li>Buy some cookies</li>
-        <li>Do some cleaning</li>
-        <li><del>Relaxation time</del></li>
-        <li><ins>Visit a doctor</ins></li>
-    </ul>
+        <h1>To Do</h1>
+        <ul>
+            <li>Buy some cookies</li>
+            <li>Do some cleaning</li>
+            <li><del>Relaxation time</del></li>
+            <li><ins>Visit a doctor</ins></li>
+        </ul>
 
 
-    <!-- details tag -->
+        <!-- details tag -->
 
 
-    <details>
-        <summary>What is HTM</summary>
-        <p>HTML is a markup language for describing the structure o web pages.</p>
-    </details>
+        <details>
+            <summary>What is HTM</summary>
+            <p>HTML is a markup language for describing the structure o web pages.</p>
+        </details>
 
 
-    <!-- dfn tag -->
+        <!-- dfn tag -->
 
-    <p>The <dfn title="Hyper Text Markup Language">HTML</dfn> is the publishing language of the world wide web.</p>
+        <p>The <dfn title="Hyper Text Markup Language">HTML</dfn> is the publishing language of the world wide web.</p>
 
 
-    <!-- dialog tag --------------------- -->
-    <dialog open>
-        <p>Are you sure you want to remove this item?</p>
-        <button type="button">Yes</button>
-        <button type="button">NO</button>
-    </dialog>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+        <!-- dialog tag --------------------- -->
+        <dialog open>
+            <p>Are you sure you want to remove this item?</p>
+            <button type="button">Yes</button>
+            <button type="button">NO</button>
+        </dialog>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
 
 
 
-    <!-- div tag -->
-    <div>
-        <h1>Something new </h1>
-        <P>div is very important tag in the HTML</P>
-    </div>
-    <br>
-    <br>
-    <br>
+        <!-- div tag -->
+        <div>
+            <h1>Something new </h1>
+            <P>div is very important tag in the HTML</P>
+        </div>
+        <br>
+        <br>
+        <br>
 
 
 
-    <!-- em tag----------------- -->
+        <!-- em tag----------------- -->
 
-    <p>this is and <em>important point</em> to consider</p>
-    <p>this is one more <em>important point</em> to consider</p>
+        <p>this is and <em>important point</em> to consider</p>
+        <p>this is one more <em>important point</em> to consider</p>
 
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
 
-    <!-- embed tag -- -->
+        <!-- embed tag -- -->
 
-    <embed src="blur.swf" type="" width="400" height="200">
+        <embed src="blur.swf" type="" width="400" height="200">
 
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
 
 
-    <!-- fieldset legend tag together -->
+        <!-- fieldset legend tag together -->
 
-    <form action="">
+        <form action="">
 
-        <fieldset>
-            <legend>Gender</legend>
-            <input type="radio" name="gender" id="male" value="male">
-            <label for="male">Male</label>
+            <fieldset>
+                <legend>Gender</legend>
+                <input type="radio" name="gender" id="male" value="male">
+                <label for="male">Male</label>
 
-            <input type="radio" name="gender" id="female" value="female">
-            <label for="female">Female</label>
-        </fieldset>
-    </form>
+                <input type="radio" name="gender" id="female" value="female">
+                <label for="female">Female</label>
+            </fieldset>
+        </form>
 
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
 
+    </section>
     <!--Figure and  figcaption tag--------- -->
+    <section class="e">
 
-    <figure>
-        <img src="discovery.jpg" alt="Space Shuttle">
-        <figcaption>NASA - Space Shuttle Discovery</figcaption>
-    </figure>
-
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-
-
-    <!-- kbd tag --- -->
-    <p>please , input " <kbd>Yes</kbd> " or " <kbd>Not</kbd>"</p>
-
-
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-
-
-    <!-- mark tag -->
-
-    <p>This is some <mark>highlighted</mark>Text.</p>
-    <p>Here are <mark>some more highlighted </mark>text. </p>
-
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-
-
-    <!-- meter tag ------------- -->
-    <p>Disk Usage: <meter value="0.8">80%</meter></p>
-    <p>Total Score: <meter value="6" min="0" max="10">6 out of 10</meter></p>
-    <p>Pollution Level: <meter low="60" high="80" max="100" value="85">Very High </meter></p>
-
-    <br>
-    <br>
-
-    <!-- ol tag z -->
-
-    <ol>
-        <li>item-1</li>
-        <li>item-2</li>
-        <li>item-3</li>
-    </ol>
-
-    <br>
-
-    <br>
-
-    <!-- optgroup Tag----- -->
-    <h1>Select a car</h1>
-
-    <select name="" id="">
-
-        <optgroup label="Sports cars">
-            <option value="ferrari">Ferrari</option>
-            <option value="lamborghini">lamborghini</option>
-
-        </optgroup>
-        <optgroup label="Luxury cars">
-            <option value="mercedes">Mercedes</option>
-            <option value="bentley">Bentley</option>
-        </optgroup>
-    </select>
-    <br>
-    <br>
-    <br>
-    <br>
-
-
-
-    <!-- output tag ---- -->
-
-    <h1>output shown here</h1>
-
-    <form oninput="result.value=parseInt(a.value)+parseInt(b.value)">
-        <input type="range" name="" id="a" value="50">
-        <br>
+        <figure>
+            <img src="discovery.jpg" alt="Space Shuttle">
+            <figcaption>NASA - Space Shuttle Discovery</figcaption>
+        </figure>
 
         <br>
-
-        <input type="number" name="" id="b" value="100"> =
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
         <br>
         <br>
 
-        <output name="result" for="a b">
 
-        </output>
+        <!-- kbd tag --- -->
+        <p>please , input " <kbd>Yes</kbd> " or " <kbd>Not</kbd>"</p>
+
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+        <!-- mark tag -->
+
+        <p>This is some <mark>highlighted</mark>Text.</p>
+        <p>Here are <mark>some more highlighted </mark>text. </p>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+        <!-- meter tag ------------- -->
+        <p>Disk Usage: <meter value="0.8">80%</meter></p>
+        <p>Total Score: <meter value="6" min="0" max="10">6 out of 10</meter></p>
+        <p>Pollution Level: <meter low="60" high="80" max="100" value="85">Very High </meter></p>
 
         <br>
         <br>
 
-        <!-- pre tag  -->
-        <pre>
+        <!-- ol tag z -->
+
+        <ol>
+            <li>item-1</li>
+            <li>item-2</li>
+            <li>item-3</li>
+        </ol>
+
+        <br>
+
+        <br>
+
+        <!-- optgroup Tag----- -->
+        <h1>Select a car</h1>
+
+        <select name="" id="">
+
+            <optgroup label="Sports cars">
+                <option value="ferrari">Ferrari</option>
+                <option value="lamborghini">lamborghini</option>
+
+            </optgroup>
+            <optgroup label="Luxury cars">
+                <option value="mercedes">Mercedes</option>
+                <option value="bentley">Bentley</option>
+            </optgroup>
+        </select>
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+
+        <!-- output tag ---- -->
+
+        <h1>output shown here</h1>
+
+        <form oninput="result.value=parseInt(a.value)+parseInt(b.value)">
+            <input type="range" name="" id="a" value="50">
+            <br>
+
+            <br>
+
+            <input type="number" name="" id="b" value="100"> =
+            <br>
+            <br>
+
+            <output name="result" for="a b">
+
+            </output>
+
+            <br>
+            <br>
+
+            <!-- pre tag  -->
+            <pre>
             the pre 
                 element preserves       spaces,
                     line-breaks, tabs...
         </pre>
 
-        <br>
+            <br>
 
-        <!-- progress tag ----- -->
+            <!-- progress tag ----- -->
 
-        <h2>Task Progress</h2>
-        <p>Progress: <progress id="bar" value="0" max="100"><span>0</span>%</progress></p>
-        <script type="text/javascript">
-            var i = 0;
-            var progressBar = document.getElementById("bar");
-            function countNumbers() {
-                if (i < 100) {
-                    i = i + 1;
-                    progressBar.value = i;
-                    // For browsers that don't support progress tag
-                    progressBar.getElementsByTagName("span")[0].textContent = i;
+            <h2>Task Progress</h2>
+            <p>Progress: <progress id="bar" value="0" max="100"><span>0</span>%</progress></p>
+            <script type="text/javascript">
+                var i = 0;
+                var progressBar = document.getElementById("bar");
+                function countNumbers() {
+                    if (i < 100) {
+                        i = i + 1;
+                        progressBar.value = i;
+                        // For browsers that don't support progress tag
+                        progressBar.getElementsByTagName("span")[0].textContent = i;
+                    }
+                    // Wait for sometime before running this script again
+                    setTimeout("countNumbers()", 500);
                 }
-                // Wait for sometime before running this script again
-                setTimeout("countNumbers()", 500);
-            }
-            countNumbers();
-        </script>
+                countNumbers();
+            </script>
 
 
-        <br>
-        <br>
-        <br>
+            <br>
+            <br>
+            <br>
 
 
-        <!-- q tag ------------ -->
+            <!-- q tag ------------ -->
 
-        <p>Albi said, <q>He loves his mother very much</q></p>
-
-
-        <br>
+            <p>Albi said, <q>He loves his mother very much</q></p>
 
 
-        <!-- sub tag --- -->
+            <br>
 
+    </section>
+
+    <!-- sub tag --- -->
+
+    <section class="f">
         <p>The chemical formula of Water is : H <sub>2 </sub>O</p>
         <p>The chemical Formula of carbon Dioxide is; CO <sub>2</sub></p>
 
@@ -502,15 +530,16 @@
         </table>
         <br>
 
+    </section>
 
-        <footer>
-            <nav>
-                <p><a href="#">Terms Of Use</a> | <a href="#">Privacy Policy</a>
-                </p>
+    <footer>
+        <nav>
+            <p><a href="#">Terms Of Use</a> | <a href="#">Privacy Policy</a>
+            </p>
 
-            </nav>
-            <p>Copyright © 2021 Tutorials Republic</p>
-        </footer>
+        </nav>
+        <p>Copyright © 2021 Tutorials Republic</p>
+    </footer>
 
 
 

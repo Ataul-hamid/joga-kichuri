@@ -1,0 +1,72 @@
+.top-section{
+    background-color: blue;
+    color: lightcoral;
+    padding: 3%;
+    
+}
+.albi{
+    align-items: center;
+    text-align: center;
+    background-color: crimson;
+    margin: 5%;
+    padding: 5%;
+  background-attachment: fixed;
+
+   
+}
+.b{
+    text-align: center;
+    background-color: chartreuse;
+    margin: 5%;
+    padding: 5%;
+  
+}
+.hamid{
+    text-align: center;
+    background-color: chocolate;
+    padding: 5%;
+    margin: 5%;
+}
+.c{
+    text-align: center;
+    align-content: center;
+    background-color: coral;
+    margin: 5%;
+    padding: 5%;
+}
+.d{
+    text-align: center;
+    background-color: darkblue;
+    margin: 5%;
+    padding: 5%;
+}
+.e{
+    text-align: center;
+    background-color: firebrick;
+    margin: 5%;
+    padding: 5%;
+}
+.f{
+    text-align: center;
+    background-color: saddlebrown;
+    margin: 5%;
+    padding: 5%;
+}
+nav a{
+    text-decoration: none;
+    margin: 10px;
+    float: left;
+    margin-bottom: 10px;
+    color: coral;
+    font-size: 20px;
+    margin-right: 4%;
+
+    
+    
+    
+}
+nav a:hover{
+    color: salmon;
+    background-color: red;
+}
+
